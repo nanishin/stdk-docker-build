@@ -33,5 +33,6 @@ RUN apt-get install -y --no-install-recommends \
     gawk \
     libc6:i386 \
     python3-libusb1 \
-    cmake
+    cmake \
+    vim-tiny
 

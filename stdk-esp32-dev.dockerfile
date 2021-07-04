@@ -18,7 +18,8 @@ RUN python setup.py esp32
 RUN /st-device-sdk-c-ref/bsp/esp32/install.sh
 RUN . /st-device-sdk-c-ref/bsp/esp32/export.sh
 
+RUN pip3 install pynacl
+
 #RUN cd /st-device-sdk-c-ref/iot-core/tools/keygen/ && \
-#    pip3 install pynacl && \
 #    python3 ./stdk-keygen.py --mnid YOUR_MNID --firmware YOUR_VERSION
 
