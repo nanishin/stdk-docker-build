@@ -1,11 +1,11 @@
 #!/bin/sh
 
-CURRENT_ESP32_TOOLCHAIN=xtensa-esp32-elf-gcc8_4_0-esp-2021r1-linux-amd64.tar.gz
-CHECK_ESP32_TOOLCHAIN=`ls $CURRENT_ESP32_TOOLCHAIN`
-if [ -z $CHECK_ESP32_TOOLCHAIN ]
-then
-    wget https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/xtensa-esp32-elf-gcc8_4_0-esp-2021r1-linux-amd64.tar.gz
-fi
+#CURRENT_ESP32_TOOLCHAIN=xtensa-esp32-elf-gcc8_4_0-esp-2021r1-linux-amd64.tar.gz
+#CHECK_ESP32_TOOLCHAIN=`ls $CURRENT_ESP32_TOOLCHAIN`
+#if [ -z $CHECK_ESP32_TOOLCHAIN ]
+#then
+#    wget https://github.com/espressif/crosstool-NG/releases/download/esp-2021r1/xtensa-esp32-elf-gcc8_4_0-esp-2021r1-linux-amd64.tar.gz
+#fi
 
 STDK_ENV_DOCKERFILE=stdk-common-env.dockerfile
 STDK_ENV_IMAGE=stdk_common_env

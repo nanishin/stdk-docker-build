@@ -32,5 +32,6 @@ RUN apt-get install -y --no-install-recommends \
     python3-setuptools \
     gawk \
     libc6:i386 \
-    python3-libusb1
+    python3-libusb1 \
+    cmake
 
